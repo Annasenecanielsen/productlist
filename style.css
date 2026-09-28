@@ -5,22 +5,21 @@ section {
   margin-bottom: 3rem;
 }
 article {
+  position: relative;
   display: grid;
   grid-template-rows: subgrid;
   grid-row: span 5;
-  background-color: rgba(235, 184, 229, 0.357);
   border-radius: 9px;
   padding: 1rem;
 }
-.produktliste {
-}
+
 img {
   width: 100%;
   object-fit: cover;
   height: 100%;
 }
 h1 {
-  color: rgba(255, 0, 225, 0.457);
+  color: #8a7666;
   margin-bottom: 4rem;
   font-size: 3rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -28,15 +27,15 @@ h1 {
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: rgba(235, 184, 229, 0.357);
+  background-color: #8a7666;
   text-align: center;
 }
-footer {
-  background-color: rgba(235, 184, 229, 0.357);
+#catlistecontainer {
+  margin-bottom: 18rem;
 }
 h4 {
-  color: rgba(255, 0, 225, 0.457);
-  padding: 20px;
+  color: #8a7666;
+  padding: 10px;
   font-size: 30px;
   text-align: center;
 }
@@ -48,22 +47,42 @@ footer div {
   grid-template-columns: 1fr 1fr;
   text-align: center;
 }
+footer {
+  border: 2px solid #8a7666;
+}
 .udsolgt {
   filter: grayscale(2);
 }
 a {
-  background-color: rgba(235, 184, 229, 0.357);
+  background-color: #8a7666;
   text-decoration: none;
   color: black;
   padding: 1rem;
   text-align: center;
 }
 .menu {
-  background-color: rgba(235, 184, 229, 0.357);
+  background-color: #8a7666;
 }
 #backbutton {
   background-color: white;
-  border-color: rgba(255, 0, 225, 0.457);
-  padding: 0.8rem;
-  margin: 2rem;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid #8a7666;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #8a7666;
+}
+.tilbud {
+  background-color: yellow;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  rotate: 35deg;
+}
+.nupris {
+  background-color: yellow;
+}
+.card {
+  background-color: #efe4da;
 }
